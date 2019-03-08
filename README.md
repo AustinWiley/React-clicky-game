@@ -11,7 +11,7 @@ For this assignment, you'll create a memory game with React. This assignment wil
 
 2. Create a new React application using [Create React App](https://github.com/facebookincubator/create-react-app).
 
-![React Clicky Adventure Time](./image(4))
+![clicky game](https://github.com/AustinWiley/React-/blob/master/public/assets/img/demo-gif.gif)
 
 3. The application should render different images (of your choice) to the screen. Each image should listen for click events.
 
