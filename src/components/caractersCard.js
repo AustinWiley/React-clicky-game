@@ -3,23 +3,17 @@ import "./CharacterCard.css";
 
 function CharacterCard (props) {
     return (
-        <div class="tile is-parent" onClick={props.imageClick}>
-
-            <img alt={props.id} src={props.image} />
-         
-                
-
-        </div>
+            <img class="card" alt={props.id} src={props.image} onClick={props.imageClick}/>
     )
 }
 
 export default CharacterCard;
 
-{/* <div className="card" onClick={props.imageClick}>
-<div className="card-image">
-    <figure className="image">
-        <img alt={props.id} src={props.image} />
-    </figure>
-</div>
-</div> */}
 
+{/* <div class="tile is-parent" onClick={props.imageClick}>
+
+<img alt={props.id} src={props.image} />
+
+    
+
+</div> */}

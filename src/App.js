@@ -98,8 +98,8 @@ class App extends Component {
       <p></p>
       <Navbar score={this.state.score}/>
       <Hero/>
-      <section className="section">
-        <div className="container">
+      <section className="section is-warning">
+        <div className="container wrapper">
 
         {this.state.characters.map(character => (
         <CharactersCard
