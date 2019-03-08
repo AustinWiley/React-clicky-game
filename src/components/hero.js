@@ -17,7 +17,3 @@ function Hero() {
 }
 
 export default Hero;
-
-{/* <h1 className="title">
-        
-</h1> */}

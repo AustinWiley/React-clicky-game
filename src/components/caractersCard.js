@@ -8,12 +8,3 @@ function CharacterCard (props) {
 }
 
 export default CharacterCard;
-
-
-{/* <div class="tile is-parent" onClick={props.imageClick}>
-
-<img alt={props.id} src={props.image} />
-
-    
-
-</div> */}
