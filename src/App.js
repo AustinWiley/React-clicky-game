@@ -7,36 +7,6 @@ import characters from "./character.json";
 import './App.css';
 
 
-// class App extends Component {
-//   render() {
-//     return (
-//       <>
-//       <Navbar/>
-//       <Hero/>
-//       <section class="section">
-//         <div class="container">
-//         {this.state.characters.map(characters => (
-//         <CharactersCard
-//         imageClick={this.imageClick}
-//         id={characters.id}
-//         key={characters.id}
-//         image={characters.image}
-//         />
-//           ))}
-
-//         </div>
-//       </section>
-//       <Footer/>
-//       </>
-//     );
-//   }
-// }
-
-// export default App;
-
-console.log('here are the characters')
-console.log(characters)
-
 //sets state to 0 or empty
 class App extends Component {
   state = {
@@ -74,7 +44,8 @@ class App extends Component {
           ),
           score: this.state.score + 1
         },
-//if you get all 12 characters corrent you get a congrats message and the game resets        
+
+//if you get all 12 characters correct you get a congrats message and the game resets        
         () => {
           if (this.state.score === 12) {
             alert("Yay! You Win!");
@@ -91,16 +62,15 @@ class App extends Component {
     }
   };
 
-//the order of components to be rendered: navbar, jumbotron, friendcard, footer 
+//the order of components to be rendered: navbar, Hero, CharacterCard, footer 
   render() {
     return (
       <>
       <p></p>
       <Navbar score={this.state.score}/>
       <Hero/>
-      <section className="section is-warning">
-        <div className="container wrapper">
-
+      <section className="section is-warning wrapper">
+        
         {this.state.characters.map(character => (
         <CharactersCard
         imageClick={this.imageClick}
@@ -108,9 +78,8 @@ class App extends Component {
         key={character.id}
         image={character.image}
         />
-          ))}
-         
-        </div>
+          ))}   
+        
       </section>
       <Footer/>
       </>
