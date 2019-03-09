@@ -1,25 +1,17 @@
 # React-clicky-game
-Memory game built with React with Adventure Time characters. 
-
-## Overview
-
-For this assignment, you'll create a memory game with React. This assignment will require you to break up your application's UI into components, manage component state, and respond to user events.
+Memory game built with React featuring Adventure Time characters. 
 
 ### Instructions
 
-1. Check out the [example solution](https://clicky-game.netlify.com/) and study the app's basic functionality.
+1. The application will render different images of Adventure Time characters to the screen. Each image will listen for click events.
 
-2. Create a new React application using [Create React App](https://github.com/facebookincubator/create-react-app).
+2. The application will keep track of the user's score. The user's score will be incremented when clicking an image for the first time. The user's score will be reset to 0 if they click the same image more than once.
+
+5. Every time an image is clicked, the images rendered to the page will shuffle themselves in a random order.
+
+6. Once the user's score is reset after an incorrect guess, the game will restart.
 
 ![clicky game](https://github.com/AustinWiley/React-clicky-game/blob/master/image%20(4).jpg)
-
-3. The application should render different images (of your choice) to the screen. Each image should listen for click events.
-
-4. The application should keep track of the user's score. The user's score should be incremented when clicking an image for the first time. The user's score should be reset to 0 if they click the same image more than once.
-
-5. Every time an image is clicked, the images rendered to the page should shuffle themselves in a random order.
-
-6. Once the user's score is reset after an incorrect guess, the game should restart.
 
 
 ## Website
