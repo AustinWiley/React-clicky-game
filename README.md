@@ -2,7 +2,6 @@
 Memory game built with React featuring Adventure Time characters. 
 
 ### Instructions
-
 1. The application will render different images of Adventure Time characters to the screen. Each image will listen for click events.
 
 2. The application will keep track of the user's score. The user's score will be incremented when clicking an image for the first time. The user's score will be reset to 0 if they click the same image more than once.
